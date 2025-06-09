@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أعمالي - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    h1, h2 {
+      margin: 0 0 15px 0;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff9900;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .project {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    .project img, .project video {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .footer {
+      background-color: #1e1e1e;
+      color: #bbb;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+    form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      background-color: #ff9900;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e68a00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>معرض أعمالي</h1>
+    <p>تصميم لوجو – مونتاج فيديو – صور مصغرة</p>
+  </header>
+
+  <nav>
+    <a href="logos.html">شعارات</a>
+    <a href="videos.html">فيديوهات</a>
+    <a href="thumbnails.html">صور مصغّرة</a>
+    <a href="#contact">تواصل معي</a>
+  </nav>
+
+  <div class="container">
+    <section id="contact">
+      <h2>📬 تواصل معي</h2>
+      <form action="mailto:hgtgtv272@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="اسمك الكامل" required />
+        <input type="email" name="email" placeholder="بريدك الإلكتروني" required />
+        <textarea name="message" rows="5" placeholder="رسالتك أو طلبك..." required></textarea>
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 - جميع الحقوق محفوظة - مصمم محترف
+  </div>
+</body>
+</html>
